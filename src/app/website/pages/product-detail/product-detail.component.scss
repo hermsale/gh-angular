@@ -1,0 +1,31 @@
+.page-product {
+  padding: 0 3em;
+  .detail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    .gallery {
+      overflow: hidden;
+      width: 100%;
+    }
+    h2, h1 {
+      margin-bottom: 5px;
+      font-weight: bold;
+      font-size: 2em;
+    }
+    h2 {
+      font-size: 1.5em;
+    }
+  }
+}
+
+button{
+  border: 1px solid #ACD9B2;
+  color: #ACD9B2;
+  border-radius: 5px;
+  &:hover{
+    border: 1px solid #000000;
+    color: #000000;
+   border-radius: 5px;
+  }
+}
